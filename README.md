@@ -1,3 +1,3 @@
 # AlexsGan.github.io
 
-GitHub Pages for Alex Gan's website.
+GitHub Pages that hosts Alex Gan's website.
