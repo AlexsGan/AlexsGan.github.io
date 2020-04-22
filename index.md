@@ -1,1 +1,12 @@
-Hello world
+<html>
+	<head>
+		<title>Alex Gan</title>
+	</head>
+
+	<body>
+		<h1>Hello, my name is <strong>Alex Gan</strong></h1>
+		<p>
+			My <a href="https://github.com/AlexsGan">GitHub</a>
+		</p>
+	</body>
+</html>
