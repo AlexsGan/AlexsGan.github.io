@@ -1,7 +1,7 @@
 body {
-	background-color:black;
+	background-color:white;
 	font-family: arial;
-	color: white;
+	color: #262626;
 }
 
 h1 {
@@ -16,7 +16,7 @@ h2 {
 	font-size: 20px;
 	text-align: center;
 	font-weight: 100;
-	background: black;
+	background: white;
 }
 
 h3 {
