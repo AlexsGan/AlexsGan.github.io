@@ -18,3 +18,22 @@ h2 {
 	font-weight: 100;
 	background: black;
 }
+
+h3 {
+	font-size: 40px;
+	font-weight: 100;
+	text-align: right;
+	float: right;
+}
+
+a {
+	color: gray;
+}
+
+.line{
+	width: 80%;
+	margin-left: 10%;
+	height: 10px;
+	border-bottom: 1px solid gray;
+	position: relative;
+}
