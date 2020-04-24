@@ -19,11 +19,25 @@ h2 {
 	background: white;
 }
 
+h5 {
+	font-size: 20px;
+	text-align: center;
+	font-weight: 100;
+	line-height: 5pt;
+}
+
 h3 {
 	font-size: 40px;
 	font-weight: 100;
-	text-align: right;
-	float: right;
+	text-align: center;
+}
+
+h4 {
+	padding: 20px 300px 30px 300px;
+	font-size: 20px;
+	font-weight: 100;
+	text-align: center;
+	line-height: 150%;
 }
 
 a {
@@ -36,4 +50,21 @@ a {
 	height: 10px;
 	border-bottom: 1px solid gray;
 	position: relative;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
 }
