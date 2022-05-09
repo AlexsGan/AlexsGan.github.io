@@ -16,9 +16,12 @@ const Intro = () => {
                             <div className="i-title-item">Swimmer</div>
                         </div>
                     </div>
-                    <div className="i-desc">
+                    <svg>
+                        
+                    </svg>
+                    <p className="i-desc">
                     I am a passionate student enrolled in the Computer Science Specialist program at the University of Toronto. I love working in fast-paced environments and I constantly seek opportunities that help me become a better software engineer.
-                    </div>
+                    </p>
                 </div>
             </div>
             <div className="i-right">
