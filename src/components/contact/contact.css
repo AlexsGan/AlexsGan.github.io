@@ -1,0 +1,24 @@
+.c{
+    /* height: 100vh; */
+    text-align: center;
+}
+
+.c-bg{
+    width: 20px;
+    height: 100%;
+    background-color: skyblue;
+    position: absolute;
+}
+
+.c-wrapper{
+    padding: 50px;
+    display: flex;
+}
+
+.c-left{
+    flex: 1;
+}
+
+.c-right{
+    flex: 1;
+}
