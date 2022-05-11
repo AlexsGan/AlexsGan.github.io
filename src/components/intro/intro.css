@@ -18,20 +18,20 @@
 .i-left-wrapper{
     padding: 50px;
     height: 50%;
-    background-color: white;
+    /* background-color: white; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.i-right-wrapper{
+/* .i-right-wrapper{
     padding: 0px;
     height: 100%;
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
+} */
 
 .i-intro{
     font-size: 30px;
@@ -72,7 +72,7 @@
     font-size: 30px;
     font-weight: bold;
     color: skyblue;
-    background-color: white;
+    /* background-color: white; */
     display: flex;
     align-items: center;
 }
