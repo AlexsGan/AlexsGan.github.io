@@ -1,0 +1,36 @@
+.e {
+    padding-bottom: 50px;
+}
+
+.e-timeline-wrapper{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.timeline-content {
+    padding-left: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    max-width: 700px;
+    min-width: 220px
+}
+
+.experience-accordion {
+    overflow: hidden;
+}
+
+.e-title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+
+.e-img {
+    object-fit: contain;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
