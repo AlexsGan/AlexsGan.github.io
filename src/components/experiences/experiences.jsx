@@ -10,14 +10,9 @@ import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import TimelineDot from '@mui/lab/TimelineDot';
-import LaptopMacIcon from '@mui/icons-material/LaptopMac';
-import Typography from '@mui/material/Typography';
 import ExperienceAccordion from "./experience_card";
 
 class Experiences extends Component {
-    constructor(props) {
-        super(props)
-    }
 
     render() {
         const amazon_dict = {
