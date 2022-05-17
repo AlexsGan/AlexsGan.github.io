@@ -7,6 +7,7 @@ import Toggle from "./components/toggle/toggle";
 import { ThemeContext } from "./context";
 
 import { ThemeProvider, createTheme } from '@mui/material/styles';
+import Projects from "./components/projects/projects";
 
 const muiDarkTheme = createTheme({
   palette: {
@@ -37,6 +38,7 @@ const App = () => {
       <Intro/>
       <About/>
       <Experiences/>
+      <Projects/>
       <Contact/>
     </ThemeProvider>
     </div>

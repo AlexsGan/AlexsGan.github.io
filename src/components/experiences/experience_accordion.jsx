@@ -19,7 +19,7 @@ class ExperienceAccordion extends Component {
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           sx={{
-            // backgroundColor: "red"
+            backgroundColor: "#ff7f50"
           }}
         >
           <div className="e-img-wrapper">
@@ -30,7 +30,11 @@ class ExperienceAccordion extends Component {
             <h>{dict.position}</h>
           </div>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails
+        sx={{
+          backgroundColor: "#ff7f50"
+        }}
+        >
           <p>
             {dict.details}
           </p>

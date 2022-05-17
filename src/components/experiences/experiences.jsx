@@ -5,12 +5,7 @@ import { Component } from "react"
 
 import * as React from 'react';
 import Timeline from '@mui/lab/Timeline';
-import TimelineItem from '@mui/lab/TimelineItem';
-import TimelineSeparator from '@mui/lab/TimelineSeparator';
-import TimelineConnector from '@mui/lab/TimelineConnector';
-import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
-import TimelineDot from '@mui/lab/TimelineDot';
-import ExperienceAccordion from "./experience_card";
+import ExperienceTimeline from "./experience_timeline";
 
 class Experiences extends Component {
 
@@ -34,46 +29,13 @@ class Experiences extends Component {
         return (
             <div className="e">
                 <div className="e-title-wrapper">
-                    <h1>Experiences</h1>
+                    <h1 className="title-text">Experiences</h1>
                 </div>
 
                 <div className="e-timeline-wrapper">
                 <Timeline>
-                    <TimelineItem>
-                        <TimelineOppositeContent
-                            sx={{ m: 'auto 0' }}
-                        >
-                            {amazon_dict.date}
-                        </TimelineOppositeContent>
-                        <TimelineSeparator>
-                            <TimelineConnector />
-                            <TimelineDot color="primary">
-                                {/* <LaptopMacIcon /> */}
-                            </TimelineDot>
-                            <TimelineConnector />
-                        </TimelineSeparator>
-                        <div className="timeline-content">
-                            <ExperienceAccordion dict={amazon_dict}/>
-                        </div>
-                    </TimelineItem>
-
-                    <TimelineItem>
-                        <TimelineOppositeContent
-                            sx={{ m: 'auto 0' }}
-                        >
-                            {tccsa_dict.date}
-                        </TimelineOppositeContent>
-                        <TimelineSeparator>
-                            <TimelineConnector />
-                            <TimelineDot color="primary">
-                                {/* <LaptopMacIcon /> */}
-                            </TimelineDot>
-                            <TimelineConnector />
-                        </TimelineSeparator>
-                        <div className="timeline-content">
-                            <ExperienceAccordion dict={tccsa_dict}/>
-                        </div>
-                    </TimelineItem>
+                    <ExperienceTimeline dict={amazon_dict}/>
+                    <ExperienceTimeline dict={tccsa_dict}/>
                 </Timeline>
                 </div>
             </div>

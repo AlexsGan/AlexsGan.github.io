@@ -4,6 +4,11 @@
     align-items: center;
 }
 
+.a-container{
+    /* align-items: center;
+    max-width: 1000px; */
+}
+
 .a-left{
     flex: 1;
     display: flex;
@@ -35,5 +40,9 @@
 }
 
 .a-right{
-    flex: 1
+    flex: 1;
+}
+
+.a-title{
+    margin-bottom: 10px;
 }
