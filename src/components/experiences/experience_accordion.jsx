@@ -19,7 +19,9 @@ class ExperienceAccordion extends Component {
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           sx={{
-            backgroundColor: "#ff7f50"
+            // backgroundColor: "#ff7f50"
+            // background: "linear-gradient(to right, rgba(255,100,100), rgba(255,200,80))"
+            background: "linear-gradient(to right, rgb(100,99,237), rgb(100,189,237))"
           }}
         >
           <div className="e-img-wrapper">
@@ -32,7 +34,7 @@ class ExperienceAccordion extends Component {
         </AccordionSummary>
         <AccordionDetails
         sx={{
-          backgroundColor: "#ff7f50"
+          background: "linear-gradient(to right, rgb(100,99,237), rgb(100,189,237))"
         }}
         >
           <p>

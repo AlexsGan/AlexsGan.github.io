@@ -4,11 +4,6 @@
     align-items: center;
 }
 
-.a-container{
-    /* align-items: center;
-    max-width: 1000px; */
-}
-
 .a-left{
     flex: 1;
     display: flex;
