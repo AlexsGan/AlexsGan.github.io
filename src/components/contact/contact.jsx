@@ -1,26 +1,37 @@
 import "./contact.css"
-// import Me from "../../img/me.jpg"
+import LinkedinIcon from "../../img/linkedin_icon.png"
 import React, { Component } from "react"
+import { SocialIcon } from 'react-social-icons';
 
 class Contact extends Component {
     render() {
         return (
             <div className="c">
-                <h5><a href="https://www.linkedin.com/in/alex-rui-gan/">Linkedin</a></h5>
-                <h5>alex.g32523@gmail.com</h5>
-                <h5><a href="https://github.com/AlexsGan">GitHub Repo</a></h5>
-                {/* <div className="c-bg"></div> */}
-            {/* <div className="c-wrapper">
-                <div className="c-left">
-                    <div className="c-title">Let's talk!</div>
-                </div>       
-                <div className="c-info">
-                    <div className="c-info-item">
-                        
-                    </div>    
-                </div>         
-                <div className="c-right"></div>                
-            </div> */}
+                <h1 className="c-title">Contact Me!</h1>
+                <div className="c-icons-container">
+                    <div className="c-img-wrapper">
+                        <SocialIcon url="https://www.linkedin.com/in/alex-rui-gan/"
+                            bgColor="black"
+                            fgColor="white"
+                        />
+                    </div>
+                    <div className="c-img-wrapper">
+                        <SocialIcon
+                            url="mailto:alex.g32523@gmail.com"
+                            network="mailto"
+                            bgColor="black"
+                            fgColor="white"
+                        />
+                    </div>
+                    <div className="c-img-wrapper">
+                        <SocialIcon
+                            url="https://github.com/AlexsGan"
+                            network="github"
+                            bgColor="black"
+                            fgColor="white"
+                        />
+                    </div>
+                </div>
             </div>
         )
     }

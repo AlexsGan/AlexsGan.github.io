@@ -38,7 +38,7 @@ const App = () => {
       <Intro/>
       <About/>
       <Experiences/>
-      <Projects/>
+      {/* <Projects/> */}
       <Contact/>
     </ThemeProvider>
     </div>
