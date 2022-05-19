@@ -2,6 +2,13 @@
     height: 100vh;
     display: flex;
     align-items: center;
+    /* text-align: center; */
+}
+
+.a-container{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
 }
 
 .a-left{
@@ -11,6 +18,9 @@
     justify-content: center;
     position: relative;
     height: 100%;
+    float: left;
+    /* display:inline-block;
+    max-width: 200px; */
 }
 
 .a-card.bg{
@@ -36,10 +46,17 @@
 
 .a-right{
     flex: 1;
+    float: left;
+    /* display:inline-block;
+    max-width: 200px; */
 }
 
 .a-title{
     margin-bottom: 10px;
+}
+
+.a-resume{
+    margin-top: 30px;
 }
 
 @media screen and (max-width: 480px){
