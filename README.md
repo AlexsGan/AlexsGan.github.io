@@ -1,3 +1,3 @@
 # AlexsGan.github.io
 
-This is a repository for Alex Gan's website.
+This is my personal website created using React.
