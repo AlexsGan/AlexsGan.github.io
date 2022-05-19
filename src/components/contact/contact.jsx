@@ -32,6 +32,7 @@ class Contact extends Component {
                         />
                     </div>
                 </div>
+                <div className="c-footer"><p>Copyright © 2022 Alex Gan.</p></div>
             </div>
         )
     }
