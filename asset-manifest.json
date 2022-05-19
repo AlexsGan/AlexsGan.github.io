@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.0abe0488.css",
-    "main.js": "/static/js/main.e3bab319.js",
+    "main.css": "/static/css/main.9993d6c5.css",
+    "main.js": "/static/js/main.aab09d47.js",
     "static/media/me_transparent_1.png": "/static/media/me_transparent_1.cefced954e214849b1a0.png",
     "static/media/me.jpg": "/static/media/me.d72113cdb6309239156c.jpg",
     "static/media/tccsa_logo.jpg": "/static/media/tccsa_logo.fa0581a4763214a5936c.jpg",
     "index.html": "/index.html",
-    "main.0abe0488.css.map": "/static/css/main.0abe0488.css.map",
-    "main.e3bab319.js.map": "/static/js/main.e3bab319.js.map"
+    "main.9993d6c5.css.map": "/static/css/main.9993d6c5.css.map",
+    "main.aab09d47.js.map": "/static/js/main.aab09d47.js.map"
   },
   "entrypoints": [
-    "static/css/main.0abe0488.css",
-    "static/js/main.e3bab319.js"
+    "static/css/main.9993d6c5.css",
+    "static/js/main.aab09d47.js"
   ]
 }
