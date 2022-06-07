@@ -1,5 +1,5 @@
 import "./contact.css"
-import LinkedinIcon from "../../img/linkedin_icon.png"
+// import LinkedinIcon from "../../img/linkedin_icon.png"
 import React, { Component } from "react"
 import { SocialIcon } from 'react-social-icons';
 
@@ -11,6 +11,7 @@ class Contact extends Component {
                 <div className="c-icons-container">
                     <div className="c-img-wrapper">
                         <SocialIcon url="https://www.linkedin.com/in/alex-rui-gan/"
+                            target="_blank"
                             bgColor="black"
                             fgColor="white"
                         />
@@ -18,6 +19,7 @@ class Contact extends Component {
                     <div className="c-img-wrapper">
                         <SocialIcon
                             url="mailto:alex.g32523@gmail.com"
+                            // target="_blank"
                             network="mailto"
                             bgColor="black"
                             fgColor="white"
@@ -26,6 +28,7 @@ class Contact extends Component {
                     <div className="c-img-wrapper">
                         <SocialIcon
                             url="https://github.com/AlexsGan"
+                            target="_blank"
                             network="github"
                             bgColor="black"
                             fgColor="white"

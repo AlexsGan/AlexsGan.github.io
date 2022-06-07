@@ -1,5 +1,6 @@
 import "./about.css"
 import Me from "../../img/me.jpg"
+import ResumePdf from "../../pdfs/AlexGanResume2022.pdf"
 import React, { Component } from "react"
 import Button from '@mui/material/Button';
 
@@ -22,7 +23,8 @@ class About extends Component {
                     <div className="a-resume">
                         <Button
                             variant="contained"
-                            href="https://drive.google.com/file/d/10lzAmH2ayPKe9qvliDhPGBFcmvGHRRlK/view?usp=sharing"
+                            // href="https://drive.google.com/file/d/10lzAmH2ayPKe9qvliDhPGBFcmvGHRRlK/view?usp=sharing"
+                            href={ResumePdf}
                             target="_blank"
                         >
                             <p>Resume</p>
