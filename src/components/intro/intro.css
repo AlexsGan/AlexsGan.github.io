@@ -54,7 +54,7 @@
 
 .i-title-wrapper{
     height: 100%;
-    animation: move 10s ease-in-out infinite alternate;
+    animation: move 10s ease-in-out infinite;
 }
 
 @keyframes move {
@@ -106,6 +106,7 @@
 @media screen and (max-width: 480px){
     .i{
         flex-direction: column;
+        height: 640px;
     }
 
     .i-left-wrapper{

@@ -33,7 +33,7 @@ const App = () => {
           color: darkMode && "white",
         }}
       >
-        <Intro darkMode={darkMode}/>
+        <Intro />
       </div>
       <div
         style={{
