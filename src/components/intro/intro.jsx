@@ -1,34 +1,35 @@
 import "./intro.css"
 import Me from "../../img/me_transparent_1.png"
 import React, { Component } from "react"
-import ParticlesBg from 'particles-bg'
+import Particles from "react-tsparticles";
 
 
 class Intro extends Component {
+
+
     render() {
         return (
             <div className="i">
-                <ParticlesBg type="circle" bg={true} />
-                    <div className="i-left">
-                        <div className="i-left-wrapper">
-                            <h2 className="i-intro">Hello, My name is</h2>
-                            <h1 className="i-name">Alex Gan</h1>
-                            <div className="i-title">
-                                <div className="i-title-wrapper">
-                                    <div className="i-title-item">Software Engineer</div>
-                                    <div className="i-title-item">Gamer</div>
-                                    <div className="i-title-item">Pianist </div>
-                                    <div className="i-title-item">Swimmer</div>
-                                </div>
+                <div className="i-left">
+                    <div className="i-left-wrapper">
+                        <h2 className="i-intro">Hello, My name is</h2>
+                        <h1 className="i-name">Alex Gan</h1>
+                        <div className="i-title">
+                            <div className="i-title-wrapper">
+                                <div className="i-title-item">Software Engineer</div>
+                                <div className="i-title-item">Gamer</div>
+                                <div className="i-title-item">Pianist </div>
+                                <div className="i-title-item">Swimmer</div>
                             </div>
-                            <p className="i-desc">
-                            </p>
                         </div>
+                        <p className="i-desc">
+                        </p>
                     </div>
-                    <div className="i-right">
-                        {/* <div className="i-bg"></div> */}
-                        {/* <img src={Me} alt="" className="i-img" /> */}
-                    </div>
+                </div>
+                <div className="i-right">
+                    <div className="i-bg"></div>
+                    <img src={Me} alt="" className="i-img" />
+                </div>
             </div>
         )
     }

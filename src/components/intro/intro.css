@@ -3,11 +3,6 @@
     height: 100vh;
 }
 
-.i-no-animation{
-    display: flex;
-    height: 100vh;
-}
-
 .i-left{
     flex: 1;
     display: flex;
@@ -106,7 +101,6 @@
 @media screen and (max-width: 480px){
     .i{
         flex-direction: column;
-        height: 635px;
     }
 
     .i-left-wrapper{

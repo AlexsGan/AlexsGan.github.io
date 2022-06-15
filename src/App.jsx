@@ -27,31 +27,21 @@ const App = () => {
   const muiTheme = darkMode ? muiDarkTheme : muiLightTheme;
 
   return (
-    <div>
-      <div
-        style={{
-          color: darkMode && "white",
-        }}
-      >
+    <div
+      style={{
+        backgroundColor: darkMode ? "#222932" : "white",
+        color: darkMode && "white",
+      }}
+    >
+      <ThemeProvider theme={muiTheme}>
+        <Toggle />
         <Intro />
-      </div>
-      <div
-        style={{
-          backgroundColor: darkMode ? "#222932" : "white",
-          color: darkMode && "white",
-        }}
-      >
-        <ThemeProvider theme={muiTheme}>
-          <Toggle />
-          
-          <About />
-          <Experiences />
-          {/* <Projects /> */}
-          <Contact />
-        </ThemeProvider>
-      </div>
+        <About />
+        <Experiences />
+        {/* <Projects /> */}
+        <Contact />
+      </ThemeProvider>
     </div>
-
   );
 };
 
