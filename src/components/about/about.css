@@ -5,12 +5,6 @@
     /* text-align: center; */
 }
 
-.a-container{
-    max-width: 1000px;
-    margin: auto;
-    text-align: center;
-}
-
 .a-left{
     flex: 1;
     display: flex;
@@ -63,11 +57,12 @@
     .a{
         flex-direction: column;
         text-align: center;
-        margin-top: 50px;
+        margin-bottom: 50px;
     }
     
     .a-left {
         width: 100%;
+        margin-top: 50px;
     }
 
     .a-card{

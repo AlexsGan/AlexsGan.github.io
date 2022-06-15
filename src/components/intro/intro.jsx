@@ -1,12 +1,20 @@
 import "./intro.css"
 import Me from "../../img/me_transparent_1.png"
 import React, { Component } from "react"
+import ParticlesBg from 'particles-bg'
 
 
 class Intro extends Component {
+    constructor() {
+        super();
+        this.state = {
+          name: 'React',
+        };
+      }
     render() {
         return (
             <div className="i">
+                <ParticlesBg type="circle" bg={true} />
                 <div className="i-left">
                     <div className="i-left-wrapper">
                         <h2 className="i-intro">Hello, My name is</h2>
@@ -20,12 +28,11 @@ class Intro extends Component {
                             </div>
                         </div>
                         <p className="i-desc">
-                        {/* I am a passionate student enrolled in the Computer Science Specialist program at the University of Toronto. I love working in fast-paced environments and I constantly seek opportunities that help me become a better software engineer. */}
                         </p>
                     </div>
                 </div>
                 <div className="i-right">
-                    <div className="i-bg"></div>
+                    {/* <div className="i-bg"></div> */}
                     <img src={Me} alt="" className="i-img" />
                 </div>
             </div>
