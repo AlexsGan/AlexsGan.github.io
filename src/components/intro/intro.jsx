@@ -2,19 +2,16 @@ import "./intro.css"
 import Me from "../../img/me_transparent_1.png"
 import React, { Component } from "react"
 // import Particles from "react-tsparticles";
-import ParticlesBg from 'particles-bg'
+// import ParticlesBg from 'particles-bg'
 
 
 class Intro extends Component {
 
-
     render() {
         return (
             <div className="i">
-                {/* <ParticlesBg num={200} type="circle" bg={true} /> */}
                 <div className="i-left">
                     <div className="i-left-wrapper">
-
                         <h2 className="i-intro">Hello, My name is</h2>
                         <h1 className="i-name">Alex Gan</h1>
                         <div className="i-title">

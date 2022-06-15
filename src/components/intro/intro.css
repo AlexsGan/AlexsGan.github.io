@@ -1,7 +1,6 @@
 .i{
     display: flex;
-    height: 100vh;
-    /* height: 500px; */
+    height: var(--app-height);
 }
 
 .i-left{
@@ -19,7 +18,6 @@
 .i-left-wrapper{
     padding: 50px;
     height: 50%;
-    /* background-color: white; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -102,7 +100,6 @@
 @media screen and (max-width: 480px){
     .i{
         flex-direction: column;
-        height: 100%;
         height: -webkit-fill-available;
     }
 

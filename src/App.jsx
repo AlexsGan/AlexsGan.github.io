@@ -28,13 +28,20 @@ const App = () => {
   const darkMode = theme.state.darkMode;
   const muiTheme = darkMode ? muiDarkTheme : muiLightTheme;
 
+  const appHeight = () => {
+    const doc = document.documentElement
+    doc.style.setProperty('--app-height', `${window.innerHeight}px`)
+  }
+  // window.addEventListener('resize', appHeight)
+  appHeight()
+
   return (
     <div>
       <ParticlesBg num={200} type="circle" bg={true} />
       <div
+        className="tmp"
         style={{
           color: darkMode && "white",
-          // height: "100vh",
         }}
       >
         <Intro />
@@ -47,7 +54,7 @@ const App = () => {
       >
         <ThemeProvider theme={muiTheme}>
           <Toggle />
-          
+
           <About />
           <Experiences />
           {/* <Projects /> */}
