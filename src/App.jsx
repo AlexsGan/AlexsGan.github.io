@@ -8,6 +8,8 @@ import { ThemeContext } from "./context";
 
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import Projects from "./components/projects/projects";
+import ParticlesBg from 'particles-bg'
+
 
 const muiDarkTheme = createTheme({
   palette: {
@@ -27,21 +29,33 @@ const App = () => {
   const muiTheme = darkMode ? muiDarkTheme : muiLightTheme;
 
   return (
-    <div
-      style={{
-        backgroundColor: darkMode ? "#222932" : "white",
-        color: darkMode && "white",
-      }}
-    >
-      <ThemeProvider theme={muiTheme}>
-        <Toggle />
+    <div>
+      <ParticlesBg num={200} type="circle" bg={true} />
+      <div
+        style={{
+          color: darkMode && "white",
+          // height: "100vh",
+        }}
+      >
         <Intro />
-        <About />
-        <Experiences />
-        {/* <Projects /> */}
-        <Contact />
-      </ThemeProvider>
+      </div>
+      <div
+        style={{
+          backgroundColor: darkMode ? "#222932" : "white",
+          color: darkMode && "white",
+        }}
+      >
+        <ThemeProvider theme={muiTheme}>
+          <Toggle />
+          
+          <About />
+          <Experiences />
+          {/* <Projects /> */}
+          <Contact />
+        </ThemeProvider>
+      </div>
     </div>
+
   );
 };
 
