@@ -106,7 +106,7 @@
 @media screen and (max-width: 480px){
     .i{
         flex-direction: column;
-        height: 640px;
+        height: 635px;
     }
 
     .i-left-wrapper{
