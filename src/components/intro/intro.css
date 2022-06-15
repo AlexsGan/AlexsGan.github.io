@@ -3,6 +3,11 @@
     height: 100vh;
 }
 
+.i-no-animation{
+    display: flex;
+    height: 100vh;
+}
+
 .i-left{
     flex: 1;
     display: flex;
