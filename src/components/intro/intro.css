@@ -3,7 +3,7 @@
     height: var(--app-height);
 }
 
-.i-safari{
+.i-iOS{
     display: flex;
     height: -webkit-fill-available;
 }
