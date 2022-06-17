@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.25fae1df.css",
-    "main.js": "/static/js/main.a2f5288b.js",
+    "main.js": "/static/js/main.87d6f745.js",
     "static/media/me_transparent_1.png": "/static/media/me_transparent_1.cefced954e214849b1a0.png",
     "static/media/me.jpg": "/static/media/me.d72113cdb6309239156c.jpg",
     "static/media/tccsa_logo.jpg": "/static/media/tccsa_logo.fa0581a4763214a5936c.jpg",
     "static/media/AlexGanResume2022.pdf": "/static/media/AlexGanResume2022.daecb24f848ef2025e05.pdf",
     "index.html": "/index.html",
     "main.25fae1df.css.map": "/static/css/main.25fae1df.css.map",
-    "main.a2f5288b.js.map": "/static/js/main.a2f5288b.js.map"
+    "main.87d6f745.js.map": "/static/js/main.87d6f745.js.map"
   },
   "entrypoints": [
     "static/css/main.25fae1df.css",
-    "static/js/main.a2f5288b.js"
+    "static/js/main.87d6f745.js"
   ]
 }
