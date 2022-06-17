@@ -22,8 +22,13 @@
 
 .c-footer{
     text-align: center;
+    margin-top: 10px;
     margin-bottom: 10px;
     display:inline-block;
+}
+
+.c-footer-text{
+    color: gray;
 }
 
 @media screen and (max-width: 480px){

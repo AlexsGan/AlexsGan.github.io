@@ -3,13 +3,26 @@ import Me from "../../img/me_transparent_1.png"
 import React, { Component } from "react"
 // import Particles from "react-tsparticles";
 // import ParticlesBg from 'particles-bg'
+import { browserName } from 'react-device-detect';
 
+const isSafari = browserName === "Safari"
 
 class Intro extends Component {
+    i_css(){
+        if(isSafari){
+            return (
+                "i-safari"
+            )
+        } else {
+            return (
+                "i"
+            )
+        }
+      }
 
     render() {
         return (
-            <div className="i">
+            <div className={this.i_css()}>
                 <div className="i-left">
                     <div className="i-left-wrapper">
                         <h2 className="i-intro">Hello! My name is</h2>

@@ -2,6 +2,8 @@ import "./contact.css"
 // import LinkedinIcon from "../../img/linkedin_icon.png"
 import React, { Component } from "react"
 import { SocialIcon } from 'react-social-icons';
+import Divider from '@mui/material/Divider';
+
 
 class Contact extends Component {
     render() {
@@ -35,7 +37,12 @@ class Contact extends Component {
                         />
                     </div>
                 </div>
-                <div className="c-footer"><p>Copyright © 2022 Alex Gan.</p></div>
+                <Divider/>
+                <div className="c-footer">
+                    <p className="c-footer-text">
+                        Copyright © 2022 Alex Gan.
+                    </p>
+                </div>
             </div>
         )
     }

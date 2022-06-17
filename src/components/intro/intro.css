@@ -3,6 +3,11 @@
     height: var(--app-height);
 }
 
+.i-safari{
+    display: flex;
+    height: -webkit-fill-available;
+}
+
 .i-left{
     flex: 1;
     display: flex;

@@ -32,18 +32,33 @@ const App = () => {
     const doc = document.documentElement
     doc.style.setProperty('--app-height', `${window.innerHeight}px`)
   }
-  // window.addEventListener('resize', appHeight)
+  window.addEventListener('resize', appHeight)
   appHeight()
 
   return (
     <div>
-      <ParticlesBg num={200} type="circle" bg={true} />
       <div
-        className="tmp"
         style={{
           color: darkMode && "white",
         }}
       >
+        {/* <ParticlesBg
+          color="#87CEEB"
+          type="circle"
+          num={2}
+          bg={true}
+        />
+        <ParticlesBg
+          color="#87CEFA"
+          type="circle"
+          num={2}
+          bg={true}
+        /> */}
+        <ParticlesBg
+          type="circle"
+          num={200}
+          bg={true}
+        />
         <Intro />
       </div>
       <div
