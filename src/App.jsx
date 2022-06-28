@@ -42,24 +42,26 @@ const App = () => {
           color: darkMode && "white",
         }}
       >
-        {/* <ParticlesBg
-          color="#87CEEB"
-          type="circle"
-          num={2}
-          bg={true}
-        />
-        <ParticlesBg
-          color="#87CEFA"
-          type="circle"
-          num={2}
-          bg={true}
-        /> */}
+        {/* <div>
+          <ParticlesBg
+            color="#87CEEB"
+            type="circle"
+            num={2}
+            bg={true}
+          />
+          <ParticlesBg
+            color="#87CEFA"
+            type="circle"
+            num={2}
+            bg={true}
+          />
+        </div> */}
         <ParticlesBg
           type="circle"
           num={200}
           bg={true}
         />
-        <Intro />
+        <Intro darkMode={darkMode}/>
       </div>
       <div
         style={{

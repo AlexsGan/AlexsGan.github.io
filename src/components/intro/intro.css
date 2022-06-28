@@ -71,13 +71,22 @@
     } */
 }
 
+.i-title-item.dark{
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: 	rgb(0,0,205);
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+}
+
 .i-title-item{
     height: 50px;
     font-size: 30px;
     font-weight: bold;
-    /* color: #3f51b5; */
-    color: rgb(100,149,237);
-    /* color: #59b256; */
+    /* color: rgb(100,149,237);  */
+    color: rgb(181, 238, 255);
     /* background-color: white; */
     display: flex;
     align-items: center;

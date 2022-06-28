@@ -6,7 +6,7 @@ import React, { Component } from "react"
 
 class Intro extends Component {
 
-    iOS() {
+    is_iOS() {
         return [
             'iPad Simulator',
             'iPhone Simulator',
@@ -19,7 +19,7 @@ class Intro extends Component {
     }
 
     i_css() {
-        if (this.iOS()) {
+        if (this.is_iOS()) {
             return (
                 "i-iOS"
             )
@@ -30,7 +30,25 @@ class Intro extends Component {
         }
     }
 
+    change_subtitles_color(darkMode) {
+        var item_css = document.getElementsByClassName('i-title-item');
+        console.log(darkMode)
+        for (var i = 0; i < item_css.length; i++) {
+            var cell = item_css[i];
+            if (!darkMode) {
+                console.log("add dark to css")
+                cell.classList.add('dark')
+            } else {
+                console.log("remove dark from css")
+                cell.classList.remove('dark');
+            }
+        }
+    }
+
     render() {
+        const darkMode = this.props.darkMode;
+        this.change_subtitles_color(darkMode)
+
         return (
             <div className={this.i_css()}>
                 <div className="i-left">
