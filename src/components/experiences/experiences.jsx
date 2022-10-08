@@ -12,6 +12,14 @@ class Experiences extends Component {
     render() {
         const amazon_dict = {
             company: "Amazon",
+            position: "Software Development Engineer",
+            date: "Aug 2022 - Now",
+            logo: amazon_logo,
+            details: "\u00a0 ".repeat(100),
+        }
+
+        const amazon_intern_dict = {
+            company: "Amazon",
             position: "Software Development Engineer Intern",
             date: "May 2021 - Jul 2021",
             logo: amazon_logo,
@@ -35,6 +43,7 @@ class Experiences extends Component {
                 <div className="e-timeline-wrapper">
                 <Timeline>
                     <ExperienceTimeline dict={amazon_dict}/>
+                    <ExperienceTimeline dict={amazon_intern_dict}/>
                     <ExperienceTimeline dict={tccsa_dict}/>
                 </Timeline>
                 </div>
